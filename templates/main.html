@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="static/favicon.ico">
+  <title>Modern Payment micro-solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="text-2xl font-bold text-black">MPms</div>
+      <ul class="flex space-x-8 text-lg">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About Us</a></li>
+        <li><a href="#testimonials" class="hover:text-blue-500">Client Testimonials</a></li>
+      </ul>
+      <a href="#contact" class="bg-[#41B6E6] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Background Image -->
+<section
+  id="home"
+  class="relative min-h-screen flex items-center justify-center text-center px-4 bg-cover bg-center"
+  style="background-image: url('static/lacrosse/02.jpg');"
+>
+  <div class="absolute inset-0 bg-black bg-opacity-70"></div> <!-- Overlay -->
+  <div class="relative z-10 text-white max-w-3xl">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">Empowering Businesses to Succeed</h1>
+    <p class="text-lg md:text-xl mb-8">No matter how comfortable you are with tech, we believe everyone should have the option to scale their business!</p>
+    <a
+      href="#contact"
+      class="bg-[#41B6E6] text-black px-6 py-3 rounded-md text-lg hover:bg-black text-white transition"
+    >Get In Touch</a>
+  </div>
+</section>
+<!-- Services Section -->
+<section class="py-20 bg-[#41B6E6] px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl text-black font-bold mb-12">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Service 1 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-black text-4xl mb-4">
+          <!-- Example icon (you can swap with Heroicons or custom SVGs) -->
+          📊
+        </div>
+        <h3 class="text-xl text-black font-semibold mb-2">Consultation</h3>
+        <p class="text-black">Navigating modern technology is daunting, but you already have a vision. 
+            Using your vision lets pave the road for the foundation of your business!</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-black text-4xl mb-4">
+          🌐
+        </div>
+        <h3 class="text-xl text-black font-semibold mb-2">Implementation</h3>
+        <p class="text-black">Sometimes you don't have the time to implement all these features for yourself. 
+            Let us leverage our experience in the non-profit, sports and programming industries worry about it.</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+        <div class="text-black text-4xl mb-4">
+          🤝
+        </div>
+        <h3 class="text-xl text-black font-semibold mb-2">Full Service Execution</h3>
+        <p class="text-black">Our full service package facilitates all the necessary consultation needed to fully create a custom solution for your growing business.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Us Section -->
+  <section id="about" class="py-20 px-4 bg-[#41B6E6]">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl text-black font-bold mb-4">About Me</h2>
+      <p class="text-lg text-left text-black">I am the one-man army dedicated to helping small and medium-sized businesses succeed by offering expert consultation, digital transformation services, and customized support tailored to your goals.</p>
+    </div>
+  </section>
+
+  <!-- Client Testimonials Section -->
+  <section id="projects" class="py-20 bg-white" >
+        <div class="container mx-auto px-8">
+            <h2 class="text-4xl font-bold text-black text-center mb-12">Experience</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project Card -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl text-black font-semibold mb-2">Esports</h3>
+                    <p class="text-black mb-4">This is the link to the different work experience I have in the field, on top of my personal endevors as a player!</p>
+                    <a a href="/esports" class="text-[#41B6E6] hover:underline">Learn More</a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl text-black font-semibold mb-2">Lacrosse</h3>
+                    <p class="text-black mb-4">This is a link to the different clubs/teams that I have been on as well as a little insight into the non-profits that I am a part of!</p>
+                    <a href="/lacrosse" class="text-[#41B6E6] hover:underline">Learn More</a>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-xl transition">
+                    <h3 class="text-2xl text-black font-semibold mb-2">Web-development & Programming</h3>
+                    <p class="text-black mb-4">This is going to redirect you to the contract work and experience that I have.</p>
+                    <a href="/programming" class="text-[#41B6E6] hover:underline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-4 bg-white ">
+    <div class="max-w-xl mx-auto text-center bg-gray">
+      <h2 class="text-3xl text-black font-bold  mb-6">Want to learn more? Shoot me an email!</h2>
+        <form 
+  action="https://public.herotofu.com/v1/a2af6860-5d40-11f0-b37b-97112803498c" 
+  method="post" 
+  accept-charset="UTF-8" 
+  class="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg space-y-4 "
+>
+  <!-- Name -->
+  <div>
+    <label for="name" class="block text-sm font-medium text-black mb-1">Your Name</label>
+    <input 
+      name="Name" 
+      id="name" 
+      type="text" 
+      required 
+      class="w-full px-4 py-2 border  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+    />
+  </div>
+
+  <!-- Email -->
+  <div>
+    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+    <input 
+      name="Email" 
+      id="email" 
+      type="email" 
+      required 
+      class="w-full px-4 py-2 border  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+    />
+  </div>
+
+  <!-- Meeting Date -->
+  <div>
+    <label for="meeting-date" class="block text-sm font-medium text-black mb-1">Preferred Meeting Date</label>
+    <input 
+      name="Meeting Date" 
+      id="meeting-date" 
+      type="date" 
+      required 
+      class="w-full px-4 py-2 border  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+    />
+  </div>
+
+  <!-- Service Selection -->
+  <div>
+    <label for="service" class="block text-sm font-medium text-black mb-1">Select a Service</label>
+    <select 
+      name="Service" 
+      id="service" 
+      required 
+      class="w-full px-4 py-2 border  rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-black"
+    >
+      <option value="">-- Please choose an option --</option>
+      <option value="Consultation">Consultation</option>
+      <option value="Implementation">Implementation</option>
+      <option value="Full Service Execution">Full Service Execution</option>
+    </select>
+  </div>
+
+  <!-- Submit Button -->
+  <div>
+    <input 
+      type="submit" 
+      value="Submit Meeting Form" 
+      class="w-full bg-[#41B6E6] hover:bg-black text-white font-semibold py-2 px-4 rounded-md cursor-pointer transition"
+    />
+  </div>
+
+  <!-- Hidden spam field (Honeypot) -->
+  <div 
+    style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" 
+    aria-hidden="true"
+  >
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+  </div>
+</form>
+
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-black bg-gray-100">
+    &copy; 2025 Modern Payment micro-solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
